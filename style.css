@@ -1,0 +1,106 @@
+@media (max-width: 1200) and (min-width:600px) and (max-height: 550px) and (min-height:300){
+    .project {
+        display:flex;
+        height: 100%;
+    }
+
+    
+}
+
+.topPage{
+    display: flex;
+    /* position: relative; */
+    height: 500px;
+    width: auto;
+    flex-direction: row;
+    padding: 25px;
+    margin: 5px;
+    border: 5px solid red;
+}
+
+.topLeft{
+    display:flex;
+    background-color: lightsalmon;
+    font-size: 50px;
+    flex-flow: wrap column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85%;
+    width: 55%;
+    border: 5px solid red;
+    padding: 25px;
+    margin:5px;
+}
+
+.topRight{
+    display: flex;
+    font-size: 25px;
+    background-color: aliceblue;
+    flex-flow: wrap column;
+    align-items: center;
+    height: 85%;
+    width: 45%;
+    border: 5px solid red;
+    padding: 25px;
+    margin: 5px;
+}  
+
+.bottomRight{
+    display:flex;
+    flex-flow: wrap column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bottomPage{
+    display: flex;
+    /* flex-direction: column; */
+    border: 5px solid red;
+    height: 500px;
+    width: auto;
+}
+
+.leftBox{
+    display: flex;
+    background-color: black;
+    color:white;
+    font-family:sans-serif;
+    flex-flow: wrap column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black; 
+    border: 5px solid red;
+    padding: 25px;
+    margin: 5px;
+    justify-content: flex-start;
+    width: 33%;
+    /* height: 95%; */
+}
+
+.centerBox{
+    display: flex;
+    background-color: beige;
+    font-family: sans-serif;
+    flex-flow: wrap column;
+    align-items: center;
+    /* border: 1px solid black; */
+    border: 5px solid red;
+    padding: 25px;
+    margin: 5px;
+    justify-content:flex-start;
+    width: 33%;
+}
+
+.rightBox{
+    display: flex;
+    background-color: lightblue;
+    border: 5px solid red;
+    flex-flow:wrap column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px;
+    margin: 5px;
+    justify-content: center;
+    width: 33%;
+
+}
